@@ -1,4 +1,23 @@
 // 🟢 ZONE POUR ÉCRIRE TON CODE 🟢
+function displayMagicianInventory(){
+const items=['Potion 🧪', 'Baguette Magique 🪄','Grimoire 📖']
+
+for(index=0; index.length<items; index++);
+console.log(items[index]);
+  return items
+}
+
+/* etape2 */
+function displayWarriorInventory(){
+  const items=[' Épée ⚔️', 'Bouclier 🛡️', 'Armure 🪖'];
+
+  let count=0;
+  while(count<items.length);
+  console.log(items[count]);
+  count++;
+  return items
+
+}
 
 // 🛑 NE TOUCHE PAS A ÇA, JEUNE MOLDU ! 🛑
 
