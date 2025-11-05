@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inventaire RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="parallax"></div>
+
+    <header class="header-box">
+      <h1>🪄 Inventaire RPG</h1>
+    </header>
+
+    <main>
+      <section class="quest-box">
+        <details open>
+          <summary>🧙‍♂️ Inventaire du Magicien (for)</summary>
+          <pre id="output-for"></pre>
+        </details>
+      </section>
+
+      <section class="quest-box">
+        <details>
+          <summary>🛡️ Inventaire du Guerrier (while)</summary>
+          <pre id="output-while"></pre>
+        </details>
+      </section>
+
+      <section class="quest-box">
+        <details>
+          <summary>🪄 Crée ton inventaire pour l'aventure</summary>
+          <pre id="output-foreach"></pre>
+          <button type="button" id="inventory-btn">Crée ton inventaire</button>
+        </details>
+      </section>
+    </main>
+
+    <footer class="footer-box">
+      <p>🪄 RPG Code Quest</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
