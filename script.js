@@ -3,21 +3,43 @@ function displayMagicianInventory(){
 const items=['Potion 🧪', 'Baguette Magique 🪄','Grimoire 📖']
 
 for(index=0; index.length<items; index++);
-console.log(items[index]);
-  return items
+console.log(items);
+console.log(items.length);
+
+debugger;
+for(let i=0; i<items.length; i++){
+  console.log(items[i])
+}
+  return items;
 }
 
 /* etape2 */
 function displayWarriorInventory(){
   const items=[' Épée ⚔️', 'Bouclier 🛡️', 'Armure 🪖'];
 
-  let count=0;
-  while(count<items.length);
+  debugger;
+  let count =0
+  while(count < items.length){
   console.log(items[count]);
-  count++;
-  return items
+  count++;}
 
+  return items;
 }
+
+/* étape3  */
+function createInventory(){
+    const items=[];
+    let input = prompt ("Mes des objets et dis 'stop' quand tu veux arrêter");
+    console.log("premier saisie de l'aventurier :", input)
+
+    while(input !== "stop"){
+      items.push(input);
+      console.log("état de l'inventaire :", items)
+      input = prompt ("Mes des objets et dis 'stop' quand tu veux arrêter"); ;
+    console.log("nouvelle saisie de l'aventurier :", input)
+    }
+return items;
+} 
 
 // 🛑 NE TOUCHE PAS A ÇA, JEUNE MOLDU ! 🛑
 
